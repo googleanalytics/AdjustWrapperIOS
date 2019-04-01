@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AF7A7A1F143FCA1A0A221CA /* libPods-AdjustWrapper-AdjustWrapperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E4BA621B12404CFC0FB3A1 /* libPods-AdjustWrapper-AdjustWrapperTests.a */; };
+		6539682722307E1500A82003 /* ADJWrappedEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6539682622307E1500A82003 /* ADJWrappedEvent.m */; };
+		6539682922308F3500A82003 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6539682822308F3400A82003 /* AppDelegate.m */; };
+		6539682B2231BC5700A82003 /* Default-568h2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6539682A2231BC5700A82003 /* Default-568h2x.png */; };
+		65A6379E2204D2F00018944E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A6379D2204D2F00018944E /* main.m */; };
+		65A637A42204D2F00018944E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A637A32204D2F00018944E /* ViewController.m */; };
+		65A637A92204D2F00018944E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A637A82204D2F00018944E /* Assets.xcassets */; };
+		65A637B72204D2F10018944E /* AdjustWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A637B62204D2F10018944E /* AdjustWrapperTests.m */; };
+		65A637C32204D7F30018944E /* AdjustWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A637C22204D7F30018944E /* AdjustWrapper.m */; };
+		65A637CA2204F7360018944E /* GoogleAnalyticsAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A637C42204F7360018944E /* GoogleAnalyticsAdapter.m */; };
+		65A637CF2204F76B0018944E /* AdjustGoogleAnalyticsAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A637CE2204F76B0018944E /* AdjustGoogleAnalyticsAdapter.m */; };
+		65A637D2220A09F00018944E /* GoogleAnalyticsAdapterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A637D1220A09F00018944E /* GoogleAnalyticsAdapterTests.m */; };
+		65A637D5220A0A740018944E /* TestGoogleAnalyticsAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A637D4220A0A740018944E /* TestGoogleAnalyticsAdapter.m */; };
+		65A637D7220A561C0018944E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65A637D6220A561C0018944E /* GoogleService-Info.plist */; };
+		D5073C79B63EF6A0174E1E13 /* libPods-AdjustWrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2A5AFCB2CCE99768EECBDE /* libPods-AdjustWrapper.a */; };
+		EA0E7A4D05F6D3391D91E567 /* libPods-AdjustWrapperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE111FD9B68047F69680E8C2 /* libPods-AdjustWrapperTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65A637B32204D2F10018944E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A637912204D2F00018944E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65A637982204D2F00018944E;
+			remoteInfo = AdjustWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E8A43C5064D307F6D425B5A /* Pods-AdjustWrapper-AdjustWrapperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdjustWrapper-AdjustWrapperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdjustWrapper-AdjustWrapperTests/Pods-AdjustWrapper-AdjustWrapperTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FE9B87D6FAF8123F38FD6B1 /* Pods-AdjustWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdjustWrapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdjustWrapper/Pods-AdjustWrapper.release.xcconfig"; sourceTree = "<group>"; };
+		6539682522307E1500A82003 /* ADJWrappedEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADJWrappedEvent.h; sourceTree = "<group>"; };
+		6539682622307E1500A82003 /* ADJWrappedEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADJWrappedEvent.m; sourceTree = "<group>"; };
+		6539682822308F3400A82003 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SupportingFiles/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		6539682A2231BC5700A82003 /* Default-568h2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h2x.png"; path = "../SupportingFiles/Default-568h2x.png"; sourceTree = "<group>"; };
+		65A637992204D2F00018944E /* AdjustWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdjustWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A6379D2204D2F00018944E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../SupportingFiles/main.m; sourceTree = "<group>"; };
+		65A6379F2204D2F00018944E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../SupportingFiles/AppDelegate.h; sourceTree = "<group>"; };
+		65A637A22204D2F00018944E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../SupportingFiles/ViewController.h; sourceTree = "<group>"; };
+		65A637A32204D2F00018944E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../SupportingFiles/ViewController.m; sourceTree = "<group>"; };
+		65A637A82204D2F00018944E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		65A637AD2204D2F00018944E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../SupportingFiles/Info.plist; sourceTree = "<group>"; };
+		65A637B22204D2F10018944E /* AdjustWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdjustWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A637B62204D2F10018944E /* AdjustWrapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdjustWrapperTests.m; sourceTree = "<group>"; };
+		65A637B82204D2F10018944E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A637C12204D7F30018944E /* AdjustWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjustWrapper.h; sourceTree = "<group>"; };
+		65A637C22204D7F30018944E /* AdjustWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjustWrapper.m; sourceTree = "<group>"; };
+		65A637C42204F7360018944E /* GoogleAnalyticsAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAnalyticsAdapter.m; sourceTree = "<group>"; };
+		65A637C52204F7360018944E /* GoogleAnalyticsAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleAnalyticsAdapter.h; sourceTree = "<group>"; };
+		65A637CD2204F76B0018944E /* AdjustGoogleAnalyticsAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjustGoogleAnalyticsAdapter.h; sourceTree = "<group>"; };
+		65A637CE2204F76B0018944E /* AdjustGoogleAnalyticsAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjustGoogleAnalyticsAdapter.m; sourceTree = "<group>"; };
+		65A637D1220A09F00018944E /* GoogleAnalyticsAdapterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAnalyticsAdapterTests.m; sourceTree = "<group>"; };
+		65A637D3220A0A740018944E /* TestGoogleAnalyticsAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGoogleAnalyticsAdapter.h; sourceTree = "<group>"; };
+		65A637D4220A0A740018944E /* TestGoogleAnalyticsAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleAnalyticsAdapter.m; sourceTree = "<group>"; };
+		65A637D6220A561C0018944E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../SupportingFiles/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E2A5AFCB2CCE99768EECBDE /* libPods-AdjustWrapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdjustWrapper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		885E6CFD1F5CCCA75D7B41B8 /* Pods-AdjustWrapperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdjustWrapperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdjustWrapperTests/Pods-AdjustWrapperTests.release.xcconfig"; sourceTree = "<group>"; };
+		92F7A5DD56F595BD50822BA3 /* Pods-AdjustWrapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdjustWrapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdjustWrapperTests/Pods-AdjustWrapperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8FF598A527E85F3307B99E7 /* Pods-AdjustWrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdjustWrapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdjustWrapper/Pods-AdjustWrapper.debug.xcconfig"; sourceTree = "<group>"; };
+		BE111FD9B68047F69680E8C2 /* libPods-AdjustWrapperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdjustWrapperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E4BA621B12404CFC0FB3A1 /* libPods-AdjustWrapper-AdjustWrapperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdjustWrapper-AdjustWrapperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F967ABA5C3C2392AE66C8737 /* Pods-AdjustWrapper-AdjustWrapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdjustWrapper-AdjustWrapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdjustWrapper-AdjustWrapperTests/Pods-AdjustWrapper-AdjustWrapperTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65A637962204D2F00018944E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5073C79B63EF6A0174E1E13 /* libPods-AdjustWrapper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A637AF2204D2F10018944E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF7A7A1F143FCA1A0A221CA /* libPods-AdjustWrapper-AdjustWrapperTests.a in Frameworks */,
+				EA0E7A4D05F6D3391D91E567 /* libPods-AdjustWrapperTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65A637902204D2F00018944E = {
+			isa = PBXGroup;
+			children = (
+				65A6379B2204D2F00018944E /* AdjustWrapper */,
+				65A637B52204D2F10018944E /* AdjustWrapperTests */,
+				65A6379A2204D2F00018944E /* Products */,
+				B79D50FF84FDF7C850490C75 /* Pods */,
+				900780F8F9B31C9EBEA761B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65A6379A2204D2F00018944E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65A637992204D2F00018944E /* AdjustWrapper.app */,
+				65A637B22204D2F10018944E /* AdjustWrapperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65A6379B2204D2F00018944E /* AdjustWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				65A637C52204F7360018944E /* GoogleAnalyticsAdapter.h */,
+				65A637C42204F7360018944E /* GoogleAnalyticsAdapter.m */,
+				65A637CD2204F76B0018944E /* AdjustGoogleAnalyticsAdapter.h */,
+				65A637CE2204F76B0018944E /* AdjustGoogleAnalyticsAdapter.m */,
+				6539682522307E1500A82003 /* ADJWrappedEvent.h */,
+				6539682622307E1500A82003 /* ADJWrappedEvent.m */,
+				65A637C12204D7F30018944E /* AdjustWrapper.h */,
+				65A637C22204D7F30018944E /* AdjustWrapper.m */,
+				65A6379C2204D2F00018944E /* Supporting Files */,
+			);
+			path = AdjustWrapper;
+			sourceTree = "<group>";
+		};
+		65A6379C2204D2F00018944E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6539682A2231BC5700A82003 /* Default-568h2x.png */,
+				65A6379F2204D2F00018944E /* AppDelegate.h */,
+				6539682822308F3400A82003 /* AppDelegate.m */,
+				65A637D6220A561C0018944E /* GoogleService-Info.plist */,
+				65A637A22204D2F00018944E /* ViewController.h */,
+				65A637A32204D2F00018944E /* ViewController.m */,
+				65A637A82204D2F00018944E /* Assets.xcassets */,
+				65A637AD2204D2F00018944E /* Info.plist */,
+				65A6379D2204D2F00018944E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65A637B52204D2F10018944E /* AdjustWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				65A637B62204D2F10018944E /* AdjustWrapperTests.m */,
+				65A637B82204D2F10018944E /* Info.plist */,
+				65A637D1220A09F00018944E /* GoogleAnalyticsAdapterTests.m */,
+				65A637D3220A0A740018944E /* TestGoogleAnalyticsAdapter.h */,
+				65A637D4220A0A740018944E /* TestGoogleAnalyticsAdapter.m */,
+			);
+			path = AdjustWrapperTests;
+			sourceTree = "<group>";
+		};
+		900780F8F9B31C9EBEA761B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E2A5AFCB2CCE99768EECBDE /* libPods-AdjustWrapper.a */,
+				E8E4BA621B12404CFC0FB3A1 /* libPods-AdjustWrapper-AdjustWrapperTests.a */,
+				BE111FD9B68047F69680E8C2 /* libPods-AdjustWrapperTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B79D50FF84FDF7C850490C75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8FF598A527E85F3307B99E7 /* Pods-AdjustWrapper.debug.xcconfig */,
+				3FE9B87D6FAF8123F38FD6B1 /* Pods-AdjustWrapper.release.xcconfig */,
+				F967ABA5C3C2392AE66C8737 /* Pods-AdjustWrapper-AdjustWrapperTests.debug.xcconfig */,
+				1E8A43C5064D307F6D425B5A /* Pods-AdjustWrapper-AdjustWrapperTests.release.xcconfig */,
+				92F7A5DD56F595BD50822BA3 /* Pods-AdjustWrapperTests.debug.xcconfig */,
+				885E6CFD1F5CCCA75D7B41B8 /* Pods-AdjustWrapperTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65A637982204D2F00018944E /* AdjustWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A637BB2204D2F10018944E /* Build configuration list for PBXNativeTarget "AdjustWrapper" */;
+			buildPhases = (
+				95B1B4DB0B2798BC5E7B6618 /* [CP] Check Pods Manifest.lock */,
+				65A637952204D2F00018944E /* Sources */,
+				65A637962204D2F00018944E /* Frameworks */,
+				65A637972204D2F00018944E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdjustWrapper;
+			productName = AdjustWrapper;
+			productReference = 65A637992204D2F00018944E /* AdjustWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65A637B12204D2F10018944E /* AdjustWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A637BE2204D2F10018944E /* Build configuration list for PBXNativeTarget "AdjustWrapperTests" */;
+			buildPhases = (
+				C6A3BDDDA379D8258994444A /* [CP] Check Pods Manifest.lock */,
+				65A637AE2204D2F10018944E /* Sources */,
+				65A637AF2204D2F10018944E /* Frameworks */,
+				65A637B02204D2F10018944E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65A637B42204D2F10018944E /* PBXTargetDependency */,
+			);
+			name = AdjustWrapperTests;
+			productName = AdjustWrapperTests;
+			productReference = 65A637B22204D2F10018944E /* AdjustWrapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65A637912204D2F00018944E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					65A637982204D2F00018944E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					65A637B12204D2F10018944E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65A637982204D2F00018944E;
+					};
+				};
+			};
+			buildConfigurationList = 65A637942204D2F00018944E /* Build configuration list for PBXProject "AdjustWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65A637902204D2F00018944E;
+			productRefGroup = 65A6379A2204D2F00018944E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A637982204D2F00018944E /* AdjustWrapper */,
+				65A637B12204D2F10018944E /* AdjustWrapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65A637972204D2F00018944E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A637A92204D2F00018944E /* Assets.xcassets in Resources */,
+				65A637D7220A561C0018944E /* GoogleService-Info.plist in Resources */,
+				6539682B2231BC5700A82003 /* Default-568h2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A637B02204D2F10018944E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95B1B4DB0B2798BC5E7B6618 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdjustWrapper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A3BDDDA379D8258994444A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdjustWrapperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65A637952204D2F00018944E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A637CA2204F7360018944E /* GoogleAnalyticsAdapter.m in Sources */,
+				65A637A42204D2F00018944E /* ViewController.m in Sources */,
+				65A637CF2204F76B0018944E /* AdjustGoogleAnalyticsAdapter.m in Sources */,
+				65A637C32204D7F30018944E /* AdjustWrapper.m in Sources */,
+				65A6379E2204D2F00018944E /* main.m in Sources */,
+				6539682722307E1500A82003 /* ADJWrappedEvent.m in Sources */,
+				6539682922308F3500A82003 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A637AE2204D2F10018944E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A637B72204D2F10018944E /* AdjustWrapperTests.m in Sources */,
+				65A637D2220A09F00018944E /* GoogleAnalyticsAdapterTests.m in Sources */,
+				65A637D5220A0A740018944E /* TestGoogleAnalyticsAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65A637B42204D2F10018944E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65A637982204D2F00018944E /* AdjustWrapper */;
+			targetProxy = 65A637B32204D2F10018944E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65A637B92204D2F10018944E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65A637BA2204D2F10018944E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65A637BC2204D2F10018944E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8FF598A527E85F3307B99E7 /* Pods-AdjustWrapper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrapper.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65A637BD2204D2F10018944E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE9B87D6FAF8123F38FD6B1 /* Pods-AdjustWrapper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrapper.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		65A637BF2204D2F10018944E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F7A5DD56F595BD50822BA3 /* Pods-AdjustWrapperTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdjustWrapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wrapper.AdjustWrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdjustWrapper.app/AdjustWrapper";
+			};
+			name = Debug;
+		};
+		65A637C02204D2F10018944E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885E6CFD1F5CCCA75D7B41B8 /* Pods-AdjustWrapperTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdjustWrapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wrapper.AdjustWrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdjustWrapper.app/AdjustWrapper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65A637942204D2F00018944E /* Build configuration list for PBXProject "AdjustWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A637B92204D2F10018944E /* Debug */,
+				65A637BA2204D2F10018944E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A637BB2204D2F10018944E /* Build configuration list for PBXNativeTarget "AdjustWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A637BC2204D2F10018944E /* Debug */,
+				65A637BD2204D2F10018944E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A637BE2204D2F10018944E /* Build configuration list for PBXNativeTarget "AdjustWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A637BF2204D2F10018944E /* Debug */,
+				65A637C02204D2F10018944E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65A637912204D2F00018944E /* Project object */;
+}

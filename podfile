@@ -1,0 +1,8 @@
+target 'AdjustWrapper' do
+  pod 'Adjust', '~> 4.17.1'
+  pod 'Firebase/Core'
+end
+
+target 'AdjustWrapperTests' do
+  pod 'OCMock'
+end
