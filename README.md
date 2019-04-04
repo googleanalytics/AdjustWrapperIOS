@@ -44,6 +44,19 @@ Example:
 }];
 ```
 
+### Supported Methods
+
+The following API methods and properties are supported in the AppsFlyer wrapper.
+Use the wrapper by replacing `Adjust` in these instances with `AdjustWrapper`:
+
+*   `[[Adjust sharedTracker] trackEvent:]`
+*   `[Adjust trackEvent: withValue:]`
+
+Replace `ADJEvent` with `ADJWrappedEvent` in these instances:
+
+*   `[ADJEvent eventWithEventToken:]`
+*   `[ADJEvent alloc] initWithEventToken:]`
+
 ### Using With Swift
 
 In order to use the Adjust wrapper with a Swift project, make sure your project
